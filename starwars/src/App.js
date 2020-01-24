@@ -7,7 +7,7 @@ const Font = styled.div`
 text-align: center;
 color:  #ffb31a;
 font-size: 20px;
-text-shadow: 2px 2px #FFF;
+text-shadow: 2px 2px #000;
 `
 
 const App = () => {
