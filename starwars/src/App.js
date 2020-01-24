@@ -5,9 +5,9 @@ import styled from 'styled-components'
 
 const Font = styled.div`
 text-align: center;
-color: blue;
+color:  #ffb31a;
 font-size: 20px;
-text-shadow: 5px 2px #FFF;
+text-shadow: 2px 2px #FFF;
 `
 
 const App = () => {

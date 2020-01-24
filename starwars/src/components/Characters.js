@@ -8,7 +8,9 @@ background-color: rgba(168, 107, 50, 0.3);
 width: 300px;
 border: 1px solid brown;
 border-radius: 10px;
+text-shadow: 2px 3px #000;
 padding: 1%;
+color:  #ffb31a;
 text-align: center;
 box-shadow:  inset 0 0 50px #fff,      
 inset 10px 0 80px #0064D1,  
