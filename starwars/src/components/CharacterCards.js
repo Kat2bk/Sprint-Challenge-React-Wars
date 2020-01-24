@@ -2,12 +2,13 @@ import React from "react";
 import Characters from "./Characters";
 
 const CharacterCards = (props) => {
+    console.log(props)
     return (
-      <div className="wrapper">
-        {props.postData.map(item => (
-          <Characters post = {item}/>
+        <>
+        {props.postData.map((item, index) => (
+          <Characters key={index} post = {item}/>
         ))}
-      </div>
+        </>
     );
   };
 
